@@ -3,12 +3,6 @@
 #include <unordered_map>
 #include <queue>
 #include <omp.h>
-#include <mpi.h>
-#include <vector>
-#include <string>
-#include <cstring> 
-#include <stdexcept>
-#include <numeric>
 // #include <chrono>   
 // using namespace chrono;
 using namespace std;
@@ -163,10 +157,6 @@ public:
 
     // 将优先队列最前面的一个PT
     void PopNext();
-
-    
-
-
     int total_guesses = 0;
     vector<string> guesses;
 };
